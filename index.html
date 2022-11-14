@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Currency Input</title>
+</head>
+<body>
+  
+  <div class="selectBox">
+  <select name="currencyselect" id="Box">
+    <option >Para Birimi Seçiniz.</option>
+    <option>Türk Lirası</option>
+    <option>ABD Doları</option>
+    <option>Euro</option>
+    <option>Rus Rublesi</option>
+    <option>Yen/Yuan</option>
+  </select>
+  <input  id="currencyinput" placeholder="0.0000" type="text" maxlength="5" min="0" max="99999">
+  <label for="" id="priceIcon">$</label>
+</div>
+<!-- script -->
+<script src="currency.js"></script>
+</body>
+</html>

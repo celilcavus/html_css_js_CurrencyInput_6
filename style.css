@@ -1,0 +1,29 @@
+body {
+  background-color: silver;
+}
+
+.inputsProperty, .selectBox input, .selectBox select {
+  width: 100%;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+.selectBox {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 15%;
+}
+.selectBox select {
+  padding: 5px;
+}
+.selectBox input {
+  width: 30%;
+}
+.selectBox label {
+  align-self: center;
+}/*# sourceMappingURL=style.css.map */
